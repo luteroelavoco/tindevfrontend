@@ -36,4 +36,14 @@
     cursor: pointer;
     color: white;
     font-weight: bold;
+    transition: 0.5 all;
+}
+
+.login-container form button:hover{
+    background: rgba(223, 71, 35, 0.8);
+}
+
+.login-container form img.loading{
+    width: 50px;
+    align-self: center;
 }
