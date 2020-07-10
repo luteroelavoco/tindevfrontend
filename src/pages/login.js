@@ -12,13 +12,14 @@ export default function Login({ history }) {
     async function handleSubmit(e) {
         e.preventDefault();
         setLoading(true);
-        
+
         await api.post('/devs', {
             username
         })
             .then(response => {
                 const { _id } = response.data;
                 if (_id) {
+                    estado();
                     history.push(`/devs/${_id}`);
                 }
             })
@@ -30,10 +31,13 @@ export default function Login({ history }) {
                     window.alert('Este usuário do github contem informações invalidas');
                 else
                     window.alert('Aconteceu um erro no servidor, tenta mais tarde');
-            }).finally(resp => ()=>{
-                setLoading(false)
+                estado();
             })
 
+
+    }
+    function estado() {
+        setLoading(false)
     }
     return (
         <div className="login-container">

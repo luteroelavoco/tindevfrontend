@@ -35,6 +35,16 @@ export default function Main({ match }) {
             setMachDev(dev)
         })
 
+          socket.on('newdev', newdev => {   
+
+            function NewUser () {  
+                setUsers( users => [...users, newdev]);
+            }
+            NewUser();
+            
+        })
+
+
     }, [match.params.id])
 
     async function handleLike(id) {
