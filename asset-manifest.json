@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/tindevfrontend/static/css/main.f3ade6c3.chunk.css",
+    "main.js": "/tindevfrontend/static/js/main.070c501f.chunk.js",
+    "main.js.map": "/tindevfrontend/static/js/main.070c501f.chunk.js.map",
+    "runtime-main.js": "/tindevfrontend/static/js/runtime-main.48f6c210.js",
+    "runtime-main.js.map": "/tindevfrontend/static/js/runtime-main.48f6c210.js.map",
+    "static/js/2.050058fa.chunk.js": "/tindevfrontend/static/js/2.050058fa.chunk.js",
+    "static/js/2.050058fa.chunk.js.map": "/tindevfrontend/static/js/2.050058fa.chunk.js.map",
+    "index.html": "/tindevfrontend/index.html",
+    "precache-manifest.620b7301d17c05153b422ea27986b206.js": "/tindevfrontend/precache-manifest.620b7301d17c05153b422ea27986b206.js",
+    "service-worker.js": "/tindevfrontend/service-worker.js",
+    "static/css/main.f3ade6c3.chunk.css.map": "/tindevfrontend/static/css/main.f3ade6c3.chunk.css.map",
+    "static/js/2.050058fa.chunk.js.LICENSE.txt": "/tindevfrontend/static/js/2.050058fa.chunk.js.LICENSE.txt",
+    "static/media/dislike.svg": "/tindevfrontend/static/media/dislike.d4ec34e8.svg",
+    "static/media/like.svg": "/tindevfrontend/static/media/like.542059a4.svg",
+    "static/media/load.gif": "/tindevfrontend/static/media/load.b9553b9b.gif",
+    "static/media/logo.svg": "/tindevfrontend/static/media/logo.6a01ceef.svg",
+    "static/media/match.png": "/tindevfrontend/static/media/match.92d8d8f4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48f6c210.js",
+    "static/js/2.050058fa.chunk.js",
+    "static/css/main.f3ade6c3.chunk.css",
+    "static/js/main.070c501f.chunk.js"
+  ]
+}
